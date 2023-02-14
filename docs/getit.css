@@ -29,10 +29,17 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+ .card {
+  width: 218px;
+  height: 100px;
   position: relative;
-  display: block;
-  padding: 10px 15px;
+  display:  flex;
+  padding: 10px 10px;
+  margin:10px;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
 
   overflow: hidden;
 
@@ -41,11 +48,9 @@ body {
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 
-  background-color: #f7d736;
-
   transition: background-color 0.3s;
 }
-
+/*
 .btn > * {
   position: relative;
 }
@@ -78,3 +83,67 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+}
+.card-content{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-color-1{
+  background-color:   #ead3a7;
+}
+.card-color-2{
+  background-color:  #9de0f5;
+}
+.card-color-3{
+  background-color:  #ef89ba;
+}
+.card-color-4{
+  background-color:  #d6f811;
+}
+.card-color-5{
+  background-color: #abe9c1;
+}
+.card-rotation-1{
+  rotate: 1deg;
+}
+.card-rotation-2{
+  rotate: 2deg;
+}
+.card-rotation-3{
+  rotate: 3deg;
+}
+.card-rotation-4{
+  rotate: 4deg;
+}
+.card-rotation-5{
+  rotate: 5deg;
+}
+.card-rotation-6{
+  rotate: -1deg;
+}
+.card-rotation-7{
+  rotate: -2deg;
+}
+.card-rotation-8{
+  rotate: -3deg;
+}
+.card-rotation-9{
+  rotate: -4deg;
+}
+.card-rotation-10{
+  rotate: -5deg;
+}
+.card-rotation-11{
+  rotate: 0deg;
+}
