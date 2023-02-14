@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,76 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+.appbar {
+  background-color: #f7d736;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+
+  border: none;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.6);
+}
+
+.appbar img {
+  width: 70px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.topbar span {
+  font-size: 30px;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 45%;
+  margin-top: 3%;
+
+  padding-left: 0.8%;
+  padding-right: 0.8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 3%;
+}
+
+.form-card-title{
+  font-size: 1.2rem;
+  border: none;
+  text-align: left;
+}
+
+.autoresize {
+  font-size: 1rem;
+  border: none;
+  text-align: left;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
