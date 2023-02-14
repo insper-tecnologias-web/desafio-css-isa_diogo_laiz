@@ -2,9 +2,9 @@
 
 DUPLA/TRIO:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
-- DIGITE O NOME DO TERCEIRO INTEGRANTE
+- Laiz Novais de Farias
+- Diogo Pereira Lobo
+- Isabela dos Santos de Amorim
 - Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
 
 ## Desafio CSS
