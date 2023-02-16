@@ -29,17 +29,10 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
- .card {
-  width: 218px;
-  height: 100px;
+.btn {
   position: relative;
-  display:  flex;
-  padding: 10px 10px;
-  margin:10px;
-  flex-direction: column;
-  justify-content: space-between;
-  
-  
+  display: block;
+  padding: 10px 15px;
 
   overflow: hidden;
 
@@ -48,9 +41,11 @@ body {
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 
+  background-color: #f7d736;
+
   transition: background-color 0.3s;
 }
-/*
+
 .btn > * {
   position: relative;
 }
@@ -82,13 +77,80 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
-.card-container{
+}
+
+.appbar {
+  background-color: #f7d736;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+
+  border: none;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.6);
+}
+
+.appbar img {
+  width: 70px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.topbar span {
+  font-size: 30px;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 45%;
+  margin-top: 3%;
+
+  padding-left: 0.8%;
+  padding-right: 0.8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 3%;
+}
+
+.form-card-title{
+  font-size: 1.2rem;
+  border: none;
+  text-align: left;
+}
+
+.autoresize {
+  font-size: 1rem;
+  border: none;
+  text-align: left;
+  align-items: center;
+}
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
+
 .card-title{
   font-family: 'Permanent Marker', cursive;
 }
@@ -98,6 +160,28 @@ body {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+
+.card {
+  width: 218px;
+  height: 100px;
+  position: relative;
+  display:  flex;
+  padding: 10px 10px;
+  margin:10px;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  transition: background-color 0.3s;
 }
 
 .card-color-1{
