@@ -149,10 +149,17 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .card-title{
   font-family: 'Permanent Marker', cursive;
+  font-weight: 900;
+}
+
+.card-text{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 100;
 }
 .card-content{
   display: flex;
@@ -183,6 +190,7 @@ body {
 
   transition: background-color 0.3s;
 }
+
 
 .card-color-1{
   background-color:   #ead3a7;
